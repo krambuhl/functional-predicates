@@ -7,6 +7,14 @@ Library for creating common predicates.
 ```js
 var is = require('functional-predicates');
 
+var isDefined = is.defined()
+var isDefined = is.undefined(false)
+  // isDefined(undefined) === false
+
+var isUndefined = is.undefined()
+var isUndefined = is.defined(false)
+  // isUndefined(undefined) === true
+
 var isString = is.typeof('string')
   // isString('hello') === true
 
@@ -52,6 +60,8 @@ var hasNumbers = is.matches()
 
 ## Library
 
+- defined()
+- undefined()
 - typeof(type);
 - instanceof(object);
 - equal(value)
