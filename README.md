@@ -30,11 +30,11 @@ var isLt7 = is.lt(7)
 var isGt12 = is.gt(12)
   // isGt12(7) === false
 
-var isAfterJul = is.before('July 1, 2015')
-  // isAfterJul('August 22, 2015') === true
-
 var isBeforeDec = is.before('Dec 31, 2015')
   // isBeforeDec('August 22, 2015') === true
+
+var isAfterJul = is.after('July 1, 2015')
+  // isAfterJul('August 22, 2015') === true
 
 var isBetween20And45 = is.between(20, 45)
   // isBetween20And45(30) === true
@@ -68,8 +68,8 @@ var hasNumbers = is.matches()
 - lt(num);
 - gt(num);
 - between(num, num);
-- before(date); // .before('month', 10)
-- after(date); // .after({ hours: 10, minutes: 45 })
+- before(date);
+- after(date);
 - longer(length);
 - shorter(length);
 - includes(substr);

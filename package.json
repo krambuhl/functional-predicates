@@ -25,5 +25,8 @@
   "devDependencies": {
     "tap-spec": "^2.1.2",
     "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.0"
   }
 }
