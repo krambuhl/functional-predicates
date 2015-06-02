@@ -1,0 +1,29 @@
+{
+  "name": "functional-predicates",
+  "description": "Library for creating common predicates.",
+  "homepage": "https://github.com/krambuhl/functional-predicates",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "keywords": [
+    "predicates",
+    "combintors",
+    "functional programming",
+    "functional combintators",
+    "fp"
+  ],
+  "authors": [
+    "Evan Krambuhl <thekrambuhl@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/functional-predicates.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  }
+}
